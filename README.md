@@ -10,7 +10,7 @@ In this paper, we introduce a novel **multimodal and hierarchical** framework de
 
 This is the official code repo for the paper [Robustifying Human-Robot Collaboration through a Hierarchical and Multimodal Framework](). The video demo can be found at [https://www.youtube.com/watch?v=2kkANN9ueVY](https://www.youtube.com/watch?v=2kkANN9ueVY).
 
-Youtube Video:
+## Youtube Video:
 [![](https://i.ytimg.com/vi/2kkANN9ueVY/maxresdefault.jpg)](https://www.youtube.com/watch?v=2kkANN9ueVY "")
 
 
