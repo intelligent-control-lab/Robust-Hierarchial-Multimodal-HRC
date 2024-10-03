@@ -1,6 +1,4 @@
 # ignore files
-*.mp4
-*.png
 *.pbmm
 *.scorer
 # ignore dirs
