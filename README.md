@@ -10,6 +10,10 @@ In this paper, we introduce a novel **multimodal and hierarchical** framework de
 
 This is the official code repo for the paper [Robustifying Human-Robot Collaboration through a Hierarchical and Multimodal Framework](). The video demo can be found at [https://www.youtube.com/watch?v=2kkANN9ueVY](https://www.youtube.com/watch?v=2kkANN9ueVY).
 
+Youtube Video:
+[![](https://i.ytimg.com/vi/2kkANN9ueVY/maxresdefault.jpg)](https://www.youtube.com/watch?v=2kkANN9ueVY "")
+
+
 ## Environment
 ### Hardware
 - KINOVA GEN3 robot arm
@@ -32,8 +36,6 @@ conda activate hrc
 For speech model and scorer, download [deepspeech-0.9.3-models.pbmm] and [deepspeech-0.9.3-models.scorer] from [https://github.com/mozilla/DeepSpeech/releases](https://github.com/mozilla/DeepSpeech/releases), and put these two models into the ./speech.
 
 For robot controller, please set up as [https://github.com/intelligent-control-lab/robot_controller_ros](https://github.com/intelligent-control-lab/robot_controller_ros).
-
-[![](https://i.ytimg.com/vi/2kkANN9ueVY/maxresdefault.jpg)](https://www.youtube.com/watch?v=2kkANN9ueVY "")
 
 To activate the robot controller, run:
 ```
