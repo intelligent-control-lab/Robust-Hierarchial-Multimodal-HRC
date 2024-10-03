@@ -23,6 +23,7 @@ This is the official code repo for the paper [Robustifying Human-Robot Collabora
 To set up the environment, run:
 ```
 conda create -n hrc -f env_ubuntu2004.yml
+
 conda activate hrc
 ```
 
@@ -34,8 +35,11 @@ For robot controller, please set up as [https://github.com/intelligent-control-l
 To activate the robot controller, run:
 ```
 source devel/setup.bash
+
 roslaunch kinova kinova_bringup.launch
+
 rosrun rqt_gui rqt_gui
+
 roscore
 ```
 Once the robot is activated, you can see the robot arm moving.
@@ -43,8 +47,10 @@ Once the robot is activated, you can see the robot arm moving.
 ## Usage
 ```
 python controller/receiver.py # start the robot receiving process, waiting for receiving visual and audio signal
+
 # Attention: the three digital numbers succeding [task_id] is necessary!
 python run.py --show --task [task_id001] # open up the camera and start the HRC pipeline
+
 python speech/speech_recognize.py # open the speech recognition program and communicate signals to the robot
 ```
 
