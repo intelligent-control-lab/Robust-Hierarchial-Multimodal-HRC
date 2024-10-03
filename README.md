@@ -33,6 +33,8 @@ For speech model and scorer, download [deepspeech-0.9.3-models.pbmm] and [deepsp
 
 For robot controller, please set up as [https://github.com/intelligent-control-lab/robot_controller_ros](https://github.com/intelligent-control-lab/robot_controller_ros).
 
+[![](https://i.ytimg.com/vi/2kkANN9ueVY/maxresdefault.jpg)](https://www.youtube.com/watch?v=2kkANN9ueVY "")
+
 To activate the robot controller, run:
 ```
 source devel/setup.bash
