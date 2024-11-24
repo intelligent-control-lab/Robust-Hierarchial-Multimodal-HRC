@@ -1,10 +1,10 @@
-# Robustifying Human-Robot Collaboration through a Hierarchical and Multimodal Framework
+# Robustifying Long-term Human-Robot Collaboration through a Hierarchical and Multimodal Framework
 ![Architecture](/assets/images/architecture.png)
 
 ## Abstract
-Human-robot collaboration (HRC) is essential for creating flexible manufacturing systems in industries and developing intelligent service robots for everyday applications. Despite its potential, making HRC systems more robust remains a significant challenge. 
-In this paper, we introduce a novel **multimodal and hierarchical** framework designed to make human-robot collaboration **more efficient and robust**. By integrating visual observations with speech commands, our system enables more natural and flexible interactions between humans and robots. Additionally, our hierarchical approach for human detection and intention prediction enhances the system's robustness, allowing robots to better understand human behaviors. This proactive understanding enables robots to take timely and appropriate actions based on predicted human intentions. We tested our framework using the KINOVA GEN3 robot in real-world experiments and did extensive user studies. The results demonstrate that our approach effectively improves the efficiency, flexibility, and adaptation ability of HRC, showcasing the framework's potential to significantly improve the way humans and robots work together.
-
+Long-term Human-Robot Collaboration (HRC) is crucial for developing flexible manufacturing systems and for integrating companion robots into daily human environments over extended periods. However, sustaining such collaborations requires overcoming challenges such as accurately understanding human intentions, maintaining robustness in noisy and dynamic environments, and adapting to diverse user behaviors.
+This paper presents a novel **multimodal** and **hierarchical** framework to address these challenges, facilitating efficient and robust long-term HRC. In particular, the proposed multimodal framework integrates visual observations with speech commands, which enables intuitive, natural, and flexible interactions between humans and robots. Additionally, our hierarchical approach for human detection and intention prediction significantly enhances the system's robustness, allowing robots to better understand human behaviors. The proactive understanding enables robots to take timely and appropriate actions based on predicted human intentions. 
+We deploy the proposed multimodal hierarchical framework to the KINOVA GEN3 robot and conduct extensive user studies on real-world long-term HRC experiments. 
 ***
 
 
@@ -62,8 +62,8 @@ python speech/speech_recognize.py # open the speech recognition program and comm
 ## Reference
 ```
 @article{yu2024robustify,
-  title     = {Robustifying Human-Robot Collaboration through a Hierarchical and Multimodal Framework},
-  author    = {Yu, Peiqi and Abuduweili Abulikemu and Liu, Ruixuan and Liu, Changliu},
+  title     = {Robustifying Long-term Human-Robot Collaboration through a Hierarchical and Multimodal Framework,
+  author    = {Peiqi Yu  and Abulikemu Abuduweili and Ruixuan Liu and Changliu Liu },
   journal={arXiv preprint arXiv:xxx},
   year={2024}
 }
