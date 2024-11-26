@@ -8,7 +8,7 @@ We deploy the proposed multimodal hierarchical framework to the KINOVA GEN3 robo
 ***
 
 
-This is the official code repo for the paper [Robustifying Human-Robot Collaboration through a Hierarchical and Multimodal Framework](). The video demo can be found at [https://www.youtube.com/watch?v=2kkANN9ueVY](https://www.youtube.com/watch?v=2kkANN9ueVY).
+This is the official code repo for the paper [Robustifying Human-Robot Collaboration through a Hierarchical and Multimodal Framework](https://arxiv.org/abs/2411.15711). The video demo can be found at [https://www.youtube.com/watch?v=2kkANN9ueVY](https://www.youtube.com/watch?v=2kkANN9ueVY).
 
 ## Youtube Video:
 [![](https://i.ytimg.com/vi/2kkANN9ueVY/maxresdefault.jpg)](https://www.youtube.com/watch?v=2kkANN9ueVY "")
@@ -64,7 +64,7 @@ python speech/speech_recognize.py # open the speech recognition program and comm
 @article{yu2024robustify,
   title     = {Robustifying Long-term Human-Robot Collaboration through a Hierarchical and Multimodal Framework,
   author    = {Peiqi Yu  and Abulikemu Abuduweili and Ruixuan Liu and Changliu Liu },
-  journal={arXiv preprint arXiv:xxx},
+  journal={arXiv preprint arXiv:2411.15711},
   year={2024}
 }
 ```
